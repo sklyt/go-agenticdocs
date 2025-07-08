@@ -10,8 +10,8 @@ export default defineConfig({
 	integrations: [
 
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Go-Agentic v0.0.2',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/sklyt/go-agentic' }],
 			sidebar: [
 				{
 					label: 'Start',
@@ -21,10 +21,10 @@ export default defineConfig({
 						{label: 'Function Call', slug: 'guides/fncall' },
 					],
 				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+				// {
+				// 	label: 'Reference',
+				// 	autogenerate: { directory: 'reference' },
+				// },
 			],
 		}),
 	],
