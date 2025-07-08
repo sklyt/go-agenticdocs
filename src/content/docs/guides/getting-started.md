@@ -4,12 +4,6 @@ description: Smaller Models deserve love too
 ---
 
 
-# Getting Started
-
-**Smaller models deserve love too**
-
----
-
 This library is a crutch, but the good kind.
 Think LEGO blocks (composition over prompt-hacking) that help small models act big. I've tested on `qwen3:4b` and `qwen3:1.7b`, but it should work with most **tool-calling** models.
 

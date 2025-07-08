@@ -3,13 +3,11 @@ title: Function Call Agent
 description: Tools and Tool Calling Agent
 ---
 
-# Function Call Agent
-
 **Tools and Tool-Calling Agent**
 
 ---
 
-This model is built for complex tasks — and more importantly, it can interact with the outside world using [tools](https://ollama.com/blog/tool-support).
+This model is built for complex tasks, and more importantly, it can interact with the outside world using [tools](https://ollama.com/blog/tool-support).
 
 ---
 
@@ -17,7 +15,7 @@ This model is built for complex tasks — and more importantly, it can interact 
 
 By the end of this, you'll have an agent that can do things like search the web or edit files, not just generate text.
 
-Assuming you’ve already got a base model running (see [Getting Started](./example.md)) and a Go project set up, let’s dive in.
+Assuming you’ve already got a base model running (see **Getting Started**) and a Go project set up, let’s dive in.
 
 ### Install the tool packages:
 

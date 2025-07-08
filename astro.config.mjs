@@ -17,10 +17,18 @@ export default defineConfig({
 					label: 'Start',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Getting Started', slug: 'guides/example' },
+						{ label: 'Getting Started', slug: 'guides/getting-started' },
 						{label: 'Function Call', slug: 'guides/fncall' },
+						{label: 'Dialogue Retrieval Agent', slug: 'guides/diag' },
+						{label: 'ReAct Agent', slug: 'guides/react' },
 					],
 				},
+				{
+					label: "Advanced",
+					items: [
+						
+					]
+				}
 				// {
 				// 	label: 'Reference',
 				// 	autogenerate: { directory: 'reference' },
