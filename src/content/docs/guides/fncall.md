@@ -34,12 +34,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sklyt/qwen-agent/pkg/llm/ollama"
-	"github.com/sklyt/qwen-agent/pkg/schema"
-	"github.com/sklyt/qwen-agent/pkg/agent"
-	"github.com/sklyt/qwen-agent/pkg/tools"
-	"github.com/sklyt/qwen-agent/pkg/tools/files"
-	websearch "github.com/sklyt/qwen-agent/pkg/tools/web"
+	"github.com/sklyt/go-agentic/pkg/llm/ollama"
+	"github.com/sklyt/go-agentic/pkg/schema"
+	"github.com/sklyt/go-agentic/pkg/agent"
+	"github.com/sklyt/go-agentic/pkg/tools"
+	"github.com/sklyt/go-agentic/pkg/tools/files"
+	websearch "github.com/sklyt/go-agentic/pkg/tools/web"
 )
 
 func RunLoop(ctx context.Context, agent *agent.FnCallAgent) error {}

@@ -68,8 +68,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sklyt/qwen-agent/pkg/llm/ollama"
-	"github.com/sklyt/qwen-agent/pkg/schema" // <- message types live here
+		"github.com/sklyt/go-agentic/pkg/llm/ollama"
+	    "github.com/sklyt/go-agentic/pkg/schema" // <- message types live here
 )
 
 func main() {
