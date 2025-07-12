@@ -20,6 +20,7 @@ Assuming you’ve already got a base model running (see **Getting Started**) and
 ### Install the tool packages:
 
 ```bash
+go get github.com/sklyt/go-agentic/pkg/tools
 go get github.com/sklyt/go-agentic/pkg/tools/web@v0.0.2
 go get github.com/sklyt/go-agentic/pkg/tools/files@v0.0.2
 ```

@@ -45,7 +45,7 @@ go mod init github.com/qwendemo
 1. Get the library:
 
    ```bash
-   go get github.com/sklyt/qwen-agent
+   go get github.com/sklyt/go-agentic
    ```
 
 2. Create a `main.go` file:
